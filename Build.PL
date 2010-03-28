@@ -26,4 +26,3 @@ $build = Module::Build->new (
 $build->add_build_element("xml");
 $build->add_build_element("parsed-xml");
 $build->create_build_script;
-

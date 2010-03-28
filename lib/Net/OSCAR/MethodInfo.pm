@@ -7,7 +7,7 @@ rate management functionality
 
 package Net::OSCAR::MethodInfo;
 
-$VERSION = '1.925';
+$VERSION = '1.926';
 $REVISION = '$Revision$';
 
 use strict;
