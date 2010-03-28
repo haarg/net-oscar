@@ -1,0 +1,8 @@
+Revision history for Perl extension Net::OSCAR.
+
+1.926 Mar 28 2010 02:00:00 CST
+  - Fix deprecated message from perl 5.11+: defined %hash
+  - Fix Build.PL version dependencies
+
+1.925 Feb 6 2006 09:00:00 CST
+  - 1.925 released to CPAN. No history at present before this point.
