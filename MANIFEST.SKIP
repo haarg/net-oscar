@@ -18,3 +18,4 @@ CVS
 ^ftapi\.html$
 ^checksum$
 ^pod2htm
+.git

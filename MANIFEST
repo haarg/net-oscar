@@ -1,4 +1,5 @@
 Build.PL
+Changes
 HACKING
 lib/Net/OSCAR.pm
 lib/Net/OSCAR/_BLInternal.pm
