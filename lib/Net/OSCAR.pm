@@ -1428,8 +1428,6 @@ sub set_icon($$) {
 
 =pod
 
-=pod
-
 =item change_password (CURRENT PASSWORD, NEW PASSWORD)
 
 Changes the user's password.
@@ -2041,7 +2039,7 @@ sub would_make_rate_level($$;$) {
 	return $oscar->_rate_level($oscar->_compute_rate($rinfo), $rinfo->{levels});
 }
 
-=cut
+=pod
 
 =back
 
