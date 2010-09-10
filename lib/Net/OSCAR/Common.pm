@@ -1,16 +1,17 @@
 =pod
 
+=head1 NAME
+
 Net::OSCAR::Common -- Net::OSCAR public constants
 
 =cut
 
 package Net::OSCAR::Common;
 
-$VERSION = '1.926';
 $REVISION = '$Revision$';
 
 use strict;
-use vars qw(@ISA @EXPORT_OK %EXPORT_TAGS $VERSION);
+use vars qw(@ISA @EXPORT_OK %EXPORT_TAGS);
 use Scalar::Util qw(dualvar);
 require Exporter;
 @ISA = qw(Exporter);

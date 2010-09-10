@@ -1,16 +1,16 @@
 =pod
 
+=head1 NAME
+
 Net::OSCAR::Connection -- individual Net::OSCAR service connection
 
 =cut
 
 package Net::OSCAR::Connection;
 
-$VERSION = '1.926';
 $REVISION = '$Revision$';
 
 use strict;
-use vars qw($VERSION);
 use Carp;
 use Socket;
 use Symbol;

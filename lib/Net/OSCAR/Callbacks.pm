@@ -1,16 +1,16 @@
 =pod
 
+=head1 NAME
+
 Net::OSCAR::Callbacks -- Process responses from OSCAR server
 
 =cut
 
 package Net::OSCAR::Callbacks;
 
-$VERSION = '1.926';
 $REVISION = '$Revision$';
 
 use strict;
-use vars qw($VERSION);
 use Carp;
 
 use Net::OSCAR::Common qw(:all);

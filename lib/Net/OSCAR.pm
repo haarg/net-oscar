@@ -1,6 +1,5 @@
 package Net::OSCAR;
 
-$VERSION = '1.926';
 $REVISION = '$Revision$';
 
 =pod
@@ -117,7 +116,7 @@ when using multiple C<Net::OSCAR> objects.
 
 use 5.006_001;
 use strict;
-use vars qw($VERSION $REVISION @ISA @EXPORT_OK %EXPORT_TAGS $NODESTROY);
+use vars qw($REVISION @ISA @EXPORT_OK %EXPORT_TAGS $NODESTROY);
 use Carp;
 use Scalar::Util qw(weaken);
 use Digest::MD5 qw(md5);
