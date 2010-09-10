@@ -6,7 +6,6 @@ Net::OSCAR::Connection::Chat -- OSCAR chat connections
 
 package Net::OSCAR::Connection::Chat;
 
-$VERSION = '1.926';
 $REVISION = '$Revision$';
 
 use strict;
@@ -14,7 +13,7 @@ use Carp;
 
 use Net::OSCAR::TLV;
 use Net::OSCAR::Callbacks;
-use vars qw(@ISA $VERSION);
+use vars qw(@ISA);
 use Net::OSCAR::Common qw(:all);
 use Net::OSCAR::Constants;
 use Net::OSCAR::Utility;

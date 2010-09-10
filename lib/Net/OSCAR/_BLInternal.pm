@@ -1,6 +1,10 @@
 =pod
 
+=head1 NAME
+
 Net::OSCAR::_BLInternal -- internal buddylist stuff
+
+=head1 DESCRIPTION
 
 This handles conversion of Net::OSCAR to "OSCAR buddylist format",
 and the sending of buddylist changes to the OSCAR server.
@@ -16,8 +20,7 @@ use Net::OSCAR::Utility;
 use Net::OSCAR::TLV;
 use Net::OSCAR::XML;
 
-use vars qw($VERSION $REVISION);
-$VERSION = '1.926';
+use vars qw($REVISION);
 $REVISION = '$Revision$';
 
 sub init_entry($$$$) {

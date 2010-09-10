@@ -1,5 +1,7 @@
 =pod
 
+=head1 NAME
+
 Net::OSCAR::MethodInfo -- Mappings from method names to (SNAC,family).  Used by
 rate management functionality
 
@@ -7,12 +9,11 @@ rate management functionality
 
 package Net::OSCAR::MethodInfo;
 
-$VERSION = '1.926';
 $REVISION = '$Revision$';
 
 use strict;
 use warnings;
-use vars qw(@ISA $VERSION $REVISION);
+use vars qw(@ISA $REVISION);
 use Net::OSCAR::XML;
 
 sub encode($) {

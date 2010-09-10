@@ -6,12 +6,11 @@ Net::OSCAR::Connection::Server -- Net::OSCAR server connection
 
 package Net::OSCAR::Connection::Server;
 
-$VERSION = '1.926';
 $REVISION = '$Revision$';
 @ISA = qw(Net::OSCAR::Connection);
 
 use strict;
-use vars qw($VERSION @ISA);
+use vars qw(@ISA);
 use Carp;
 use Socket;
 use Symbol;

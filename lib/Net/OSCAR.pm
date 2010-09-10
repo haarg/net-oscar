@@ -1,6 +1,5 @@
 package Net::OSCAR;
 
-$VERSION = '1.926';
 $REVISION = '$Revision$';
 
 =pod
@@ -117,7 +116,7 @@ when using multiple C<Net::OSCAR> objects.
 
 use 5.006_001;
 use strict;
-use vars qw($VERSION $REVISION @ISA @EXPORT_OK %EXPORT_TAGS $NODESTROY);
+use vars qw($REVISION @ISA @EXPORT_OK %EXPORT_TAGS $NODESTROY);
 use Carp;
 use Scalar::Util qw(weaken);
 use Digest::MD5 qw(md5);
@@ -1428,8 +1427,6 @@ sub set_icon($$) {
 
 =pod
 
-=pod
-
 =item change_password (CURRENT PASSWORD, NEW PASSWORD)
 
 Changes the user's password.
@@ -2041,7 +2038,7 @@ sub would_make_rate_level($$;$) {
 	return $oscar->_rate_level($oscar->_compute_rate($rinfo), $rinfo->{levels});
 }
 
-=cut
+=pod
 
 =back
 

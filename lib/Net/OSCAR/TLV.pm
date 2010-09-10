@@ -1,6 +1,10 @@
 =pod
 
+=head1 NAME
+
 Net::OSCAR::TLV -- tied hash for OSCAR TLVs
+
+=head1 DESCRIPTION
 
 Keys in hashes tied to this class will be treated as numbers.
 This class also preserves the ordering of its keys.
@@ -9,11 +13,10 @@ This class also preserves the ordering of its keys.
 
 package Net::OSCAR::TLV;
 
-$VERSION = '1.926';
 $REVISION = '$Revision$';
 
 use strict;
-use vars qw($VERSION @EXPORT @ISA);
+use vars qw(@EXPORT @ISA);
 
 require Exporter;
 @ISA = qw(Exporter);

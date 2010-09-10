@@ -1,0 +1,7 @@
+/Build
+/MYMETA.yml
+/Makefile
+/_build/
+/blib/
+/lib/Net/OSCAR/XML/Protocol.parsed-xml
+/Net-OSCAR-1.*

@@ -1,16 +1,17 @@
 =pod
 
+=head1 NAME
+
 Net::OSCAR::Utility -- internal utility functions for Net::OSCAR
 
 =cut
 
 package Net::OSCAR::Utility;
 
-$VERSION = '1.926';
 $REVISION = '$Revision$';
 
 use strict;
-use vars qw(@ISA @EXPORT $VERSION);
+use vars qw(@ISA @EXPORT);
 use Digest::MD5 qw(md5);
 use Carp;
 
