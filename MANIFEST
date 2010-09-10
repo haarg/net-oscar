@@ -79,7 +79,6 @@ lib/Net/OSCAR/TLV.pm
 lib/Net/OSCAR/Utility.pm
 lib/Net/OSCAR/XML.pm
 lib/Net/OSCAR/XML/Protocol.dtd
-lib/Net/OSCAR/XML/Protocol.parsed-xml
 lib/Net/OSCAR/XML/Protocol.xml
 lib/Net/OSCAR/XML/Template.pm
 Makefile.PL
