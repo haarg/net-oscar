@@ -1,6 +1,7 @@
 Revision history for Perl extension Net::OSCAR.
 
 {{$NEXT}}
+  - Tests Clean. Bumping version to release
 
 1.926_001 2010-09-10 16:54:56 America/Chicago
   - Move to Dist::Zilla to ease release expense
