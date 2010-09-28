@@ -17,10 +17,10 @@ if($session->{rate_manage_mode} != OSCAR_RATE_MANAGE_NONE) {
 if($data{current} <= $data{disconnect}) {
 	$rate = RATE_DISCONNECT;
 	$worrisome = 1;
-} elsif($data{current} <= $data{limit}) {
+} elsif($data{limit} && $data{current} <= $data{limit}) {
 	$rate = RATE_LIMIT;
 	$worrisome = 1;
-} elsif($data{current} <= $data{alert}) {
+} elsif($data{alert} && $data{current} <= $data{alert}) {
 	$rate = RATE_ALERT;
 	if($data{current} - $data{limit} < 500) {
 		$worrisome = 1;
